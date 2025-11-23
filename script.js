@@ -1,3 +1,7 @@
+
+cons
+
+// create answer boxes 
 const answerBox = document.getElementById("answerContainer");
 const question = {
     question: "Who has scored more Premier League goals?",
