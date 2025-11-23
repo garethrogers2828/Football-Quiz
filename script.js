@@ -1,21 +1,45 @@
+const quizProgress = document.getElementById('quizProgress');
+const questionContainer = document.getElementById('questionContainer');
+const answerContainer = document.getElementById('answerContainer');
 
-cons
+// score 
+let currentQuestionIndex = 0;
+let score = 0;
 
-// create answer boxes 
-const answerBox = document.getElementById("answerContainer");
-const question = {
-    question: "Who has scored more Premier League goals?",
-    answers: ["Wayne Rooney", "Sergio Aguero", "Les Ferdinand"],
-    correct: "Wayne Rooney"
-};
+// Questions
+const questions = [
+    {
+        question: "Who has scored more Premier League goals?",
+        answers: ["Wayne Rooney", "Sergio Aguero", "Les Ferdinand", "Harry Kane"],
+        correct: "Wayne Rooney"
+    }
+];
 
-// Clear old answers
-answerBox.innerHTML = "";
+// Load Question 
+function loadQuestion() {
+    const currentQ = questions[currentQuestionIndex];
 
-// Add new buttons
-question.answers.forEach(ans => {
-    const btn = document.createElement("button");
-    btn.textContent = ans;
-    answerBox.appendChild(btn);
-});
+    // Show question
+    questionContainer.textContent = currentQ.question;
+
+    // Clear old answers
+    answerContainer.innerHTML = "";
+
+    // Add answer buttons
+    currentQ.answers.forEach(ans => {
+        const btn = document.createElement("button");
+        btn.textContent = ans;
+
+        btn.addEventListener("click", () => handleAnswer(ans));
+        answerContainer.appendChild(btn);
+    });
+
+    updateProgress();
+}
+
+
+// START QUIZ
+loadQuestion();
+
+
 
