@@ -12,7 +12,7 @@ const questions = [
         question: "Who has scored more Premier League goals?",
         answers: ["Wayne Rooney", "Sergio Aguero", "Les Ferdinand", "Harry Kane"],
         correct: "Wayne Rooney"
-    }
+    },
 ];
 
 // Load Question 
@@ -36,7 +36,6 @@ function loadQuestion() {
 
     updateProgress();
 }
-
 
 // START QUIZ
 loadQuestion();
