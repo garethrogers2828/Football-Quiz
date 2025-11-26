@@ -26,6 +26,10 @@ User goals are:
 
 ## User Stories 
 
+1. As a quizzer, 
+2. As football fan, 
+3. As a sport fan, 
+
 # Design
 
 ## Wireframes
@@ -33,6 +37,7 @@ User goals are:
 
 ## Colours
 
+- I liked the black and gold theme as it gieves the look of a gameshow and really stands out to the user.
 
 ## Fonts
 
@@ -103,6 +108,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
