@@ -1,15 +1,30 @@
 ﻿# Football-Quiz
 
- 
+
 
 ## Description
 
+Football quiz is a Premier League football quiz app designed for anyone who enjoys quizzing, sport, football and testing their knowledge. 
+
+- link to the live site here 
+
 # Visitor Goals
+
+The target audience for Football-Quiz are:
+
+- Quizzers
+- Sport Fans
+- Football Fans
+
+User goals are:
+
+- Answer questions
+- receive feedback of correct answer
+- see my score 
 
 ## Business Goals
 
 ## User Stories 
-
 
 # Design
 
@@ -88,6 +103,7 @@
 
 
 ## Media 
+
 
 
 
