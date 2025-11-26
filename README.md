@@ -37,7 +37,7 @@ User goals are:
 
 ## Colours
 
-- I liked the black and gold theme as it gieves the look of a gameshow and really stands out to the user.
+- I like the black and gold theme as it gives the look of a gameshow and really stands out to the user.
 
 ## Fonts
 
@@ -108,6 +108,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
