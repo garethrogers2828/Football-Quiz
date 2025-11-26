@@ -19,8 +19,8 @@ The target audience for Football-Quiz are:
 User goals are:
 
 - Answer questions
-- receive feedback of correct answer
-- see my score 
+- Receive feedback of correct answer
+- See my score 
 
 ## Business Goals
 
@@ -103,6 +103,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
