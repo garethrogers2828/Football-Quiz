@@ -10,13 +10,16 @@
 
 <body>
     <header>
-        <h1>Welcome to my Football Quiz!</h1>
+        <h1>Football Quiz!</h1>
     </header>
-    <!-- container for questions -->
+    <div class="start-screen" id="startScreen">
+        <h2>Enter your name to start the quiz:</h2>
+        <input type="text" id="userNameInput" placeholder="Your Name">
+        <button id="startBtn">Start Quiz</button>
+    </div>
 
-    <div class="container">
-
-        <div class="quiz-progress" id="quizProgress">progress</div>
+    <div class="container" id="quizContainer" style="display: none;">
+        <div id="quizProgress">progress</div>
         <div class="question-container" id="questionContainer">question</div>
         <div class="answer-container" id="answerContainer">answer</div>
     </div>
