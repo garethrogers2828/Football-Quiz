@@ -68,6 +68,10 @@ function handleAnswer(selectedAnswer) {
     }
 }
 
+function updateProgress() {
+    quizProgress.textContent = `${currentQuestionIndex + 1} / ${questions.length}`;
+}
+
 // Start quiz 
 loadQuestion();
 
