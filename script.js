@@ -13,7 +13,14 @@ const questions = [
         answers: ["Wayne Rooney", "Sergio Aguero", "Les Ferdinand", "Harry Kane"],
         correct: "Wayne Rooney"
     },
+    {
+        question: "Who has the most Premier League assists?",
+        answers: ["Kevin De Bruyne", "Ryan Giggs", "Steven Gerrard", "Cesc Fabregas"],
+        correct: "Ryan Giggs"
+    },
 ];
+
+
 
 // Load Question 
 function loadQuestion() {
@@ -37,7 +44,31 @@ function loadQuestion() {
     updateProgress();
 }
 
-// START QUIZ
+//handle answer fucntin
+
+function handleAnswer(selectedAnswer) {
+    const currentQ = questions[currentQuestionIndex];
+
+    // Check correct/incorrect
+    if (selectedAnswer === currentQ.correct) {
+        score++;
+        console.log("Correct!");
+    } else {
+        console.log("Wrong!");
+    }
+
+    //  next question
+    currentQuestionIndex++;
+
+    //  quiz  finished
+    if (currentQuestionIndex >= questions.length) {
+        endQuiz();
+    } else {
+        loadQuestion();
+    }
+}
+
+// Start quiz 
 loadQuestion();
 
 
