@@ -72,6 +72,11 @@ function updateProgress() {
     quizProgress.textContent = `${currentQuestionIndex + 1} / ${questions.length}`;
 }
 
+function endQuiz() {
+    questionContainer.textContent = "Quiz Finished!";
+    answerContainer.innerHTML = `Your score: ${score} / ${questions.length}`;
+}
+
 // Start quiz 
 loadQuestion();
 
