@@ -85,12 +85,14 @@ function handleAnswer(selectedAnswer) {
     if (selectedAnswer === currentQ.correct) {
         score++;
         clickedBtn.classList.add("correct");
+        quizProgress.textContent = `${userName}, Correct! Score: ${score} / ${questions.length}`;
     } else {
         clickedBtn.classList.add("wrong");
 
         // highlight the real correct answer
         const correctBtn = [...buttons].find(btn => btn.textContent === currentQ.correct);
         correctBtn.classList.add("correct");
+        quizProgress.textContent = `${userName}, Wrong! Score: ${score} / ${questions.length}`;
     }
 
     // Wait 5 seconds, then go to next question
