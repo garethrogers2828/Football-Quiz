@@ -65,7 +65,7 @@ function handleAnswer(selectedAnswer) {
 
         // highlight the real correct answer
         const correctBtn = [...buttons].find(btn => btn.textContent === currentQ.correct);
-        correctBtn.classList.add("correct", "flash");
+        correctBtn.classList.add("correct");
     }
 
     // Wait 5 seconds, then go to next question
