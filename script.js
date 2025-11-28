@@ -44,29 +44,42 @@ function loadQuestion() {
     updateProgress();
 }
 
-//handle answer fucntin
+// handle answer function
 
 function handleAnswer(selectedAnswer) {
     const currentQ = questions[currentQuestionIndex];
+    const buttons = answerContainer.querySelectorAll("button");
 
-    // Check correct/incorrect
+    // Disable all buttons immediately
+    buttons.forEach(btn => btn.disabled = true);
+
+    // Identify the clicked button
+    const clickedBtn = [...buttons].find(btn => btn.textContent === selectedAnswer);
+
+    // Correct logic
     if (selectedAnswer === currentQ.correct) {
         score++;
-        console.log("Correct!");
+        clickedBtn.classList.add("correct");
     } else {
-        console.log("Wrong!");
+        clickedBtn.classList.add("wrong");
+
+        // highlight the real correct answer
+        const correctBtn = [...buttons].find(btn => btn.textContent === currentQ.correct);
+        correctBtn.classList.add("correct", "flash");
     }
 
-    //  next question
-    currentQuestionIndex++;
+    // Wait 5 seconds, then go to next question
+    setTimeout(() => {
+        currentQuestionIndex++;
 
-    //  quiz  finished
-    if (currentQuestionIndex >= questions.length) {
-        endQuiz();
-    } else {
-        loadQuestion();
-    }
+        if (currentQuestionIndex >= questions.length) {
+            endQuiz();
+        } else {
+            loadQuestion();
+        }
+    }, 5000);
 }
+
 
 function updateProgress() {
     quizProgress.textContent = `${currentQuestionIndex + 1} / ${questions.length}`;
