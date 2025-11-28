@@ -1,3 +1,28 @@
+// store user name
+let userName = "";
+
+const startScreen = document.getElementById("startScreen");
+const startBtn = document.getElementById("startBtn");
+const userNameInput = document.getElementById("userNameInput");
+const quizContainer = document.getElementById("quizContainer");
+
+startBtn.addEventListener("click", () => {
+    const name = userNameInput.value.trim();
+    if (name === "") {
+        alert("Please enter your name to start the quiz!");
+        return;
+    }
+    userName = name;
+
+    // hide start screen and show quiz
+    startScreen.style.display = "none";
+    quizContainer.style.display = "block";
+
+    loadQuestion(); // start the quiz
+});
+
+
+// quiz variables
 const quizProgress = document.getElementById('quizProgress');
 const questionContainer = document.getElementById('questionContainer');
 const answerContainer = document.getElementById('answerContainer');
@@ -90,8 +115,7 @@ function endQuiz() {
     answerContainer.innerHTML = `Your score: ${score} / ${questions.length}`;
 }
 
-// Start quiz 
-loadQuestion();
+
 
 
 
