@@ -34,6 +34,9 @@ User goals are:
 
 ## Wireframes
 
+![Desktop-wireframe](https://github.com/user-attachments/assets/7c590e02-e3f1-4c1b-a1da-5aa0a1868409)
+![Mobile-wirefram](https://github.com/user-attachments/assets/d6063aea-2d43-4ed8-94a1-4150a065f132)
+
 
 ## Colours
 
@@ -108,6 +111,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
