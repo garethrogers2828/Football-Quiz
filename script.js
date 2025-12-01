@@ -18,7 +18,8 @@ startBtn.addEventListener("click", () => {
     startScreen.style.display = "none";
     quizContainer.style.display = "block";
 
-    loadQuestion(); // start the quiz
+    // start the quiz
+    loadQuestion();
 });
 
 
@@ -43,6 +44,22 @@ const questions = [
         answers: ["Kevin De Bruyne", "Ryan Giggs", "Steven Gerrard", "Cesc Fabregas"],
         correct: "Ryan Giggs"
     },
+    {
+        question: "Who has the most Premier League red cards?",
+        answers: ["Nemanja Vidic", "Roy Keane", "Jamie Carragher", "Patrick Vieira"],
+        correct: "Patrick Vieira"
+    },
+    {
+        question: "Who has played for the most Premier League clubs?",
+        answers: ["Peter Crouch", "Nicolas Anelka", "Marcus Bent", "James Milner"],
+        correct: "Marcus Bent"
+    },
+    {
+        question: "Who has more Premier League Cleen Sheets?",
+        answers: ["Peter Schmeichel", "David James", "David De gea", "Petr Cech"],
+        correct: "Petr Cech"
+    },
+
 ];
 
 
