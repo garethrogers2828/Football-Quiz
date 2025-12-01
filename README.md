@@ -54,6 +54,24 @@ User goals are:
 
 # Existing Features
 
+## Enter Name Screen
+
+- User can enter name at the start of the quiz
+
+## Start button
+
+- User can initiate the start of the quiz via a the start quiz button
+
+
+## Questions Section
+- User can then view questions one at a time with 4 possible answers
+
+## Progress Bar
+
+- There is a progress bar so users can see how into the quiz they are
+
+  
+
 
 ## Future Features 
 
@@ -115,6 +133,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
