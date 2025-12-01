@@ -55,7 +55,7 @@ const questions = [
         correct: "Marcus Bent"
     },
     {
-        question: "Who has more Premier League Cleen Sheets?",
+        question: "Who has more Premier League Clean Sheets?",
         answers: ["Peter Schmeichel", "David James", "David De gea", "Petr Cech"],
         correct: "Petr Cech"
     },
