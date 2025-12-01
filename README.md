@@ -6,7 +6,7 @@
 
 Football quiz is a Premier League football quiz app designed for anyone who enjoys quizzing, sport, football and testing their knowledge. 
 
-- link to the live site here 
+- link to the live site here - https://garethrogers2828.github.io/Football-Quiz/
 
 # Visitor Goals
 
@@ -108,6 +108,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
