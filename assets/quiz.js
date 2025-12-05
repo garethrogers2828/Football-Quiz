@@ -10,6 +10,11 @@ const quizProgress = document.getElementById('quizProgress');
 const questionContainer = document.getElementById('questionContainer');
 const answerContainer = document.getElementById('answerContainer');
 
+// leaderboard
+const leaderboardSection = document.getElementById("leaderboard");
+const leaderboardList = document.getElementById("leaderboardList");
+const leaderboardResetBtn = document.getElementById("resetBtn");
+
 // store user name
 let userName = "";
 
@@ -135,14 +140,17 @@ function endQuiz() {
 
     answerContainer.innerHTML = `
         <p>Your score: ${score} / ${questions.length}</p>
-        <button id="resetBtn">Play Again!</button>`;
+        <button id="playAgainBtn">Play Again!</button>
+    `;
 
-    document.getElementById("resetBtn").addEventListener("click", resetQuiz);
+    document.getElementById("playAgainBtn").addEventListener("click", resetQuiz);
 }
+
 
 // reset/play again function
 
 function resetQuiz() {
+
     // Reset variables
     score = 0;
     currentQuestionIndex = 0;
