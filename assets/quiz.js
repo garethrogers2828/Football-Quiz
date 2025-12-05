@@ -1,5 +1,5 @@
 
-
+// home page
 const startScreen = document.getElementById("startScreen");
 const startBtn = document.getElementById("startBtn");
 const userNameInput = document.getElementById("userNameInput");

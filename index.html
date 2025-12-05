@@ -10,13 +10,22 @@
 
 <body>
     <header>
-        <h1>Football Quiz!</h1>
+        <h1>Football Quiz</h1>
     </header>
     <div class="start-screen" id="startScreen">
-        <h2>Enter your name to start the quiz:</h2>
+        <h2>Welcome to the Premier League Quiz</h2>
+
+        <p id="welcomeMessage">
+            Test your Premier League knowledge with 5 multiple-choice questions.
+            Enter your name below and see how many you can get right.
+            Good luck!
+        </p>
+
+        <h3>Enter your name to begin:</h3>
         <input type="text" id="userNameInput" placeholder="Your Name">
         <button id="startBtn">Start Quiz</button>
     </div>
+
 
     <div class="container" id="quizContainer" style="display: none;">
         <div id="quizProgress">progress</div>
