@@ -15,6 +15,8 @@ const leaderboardSection = document.getElementById("leaderboard");
 const leaderboardList = document.getElementById("leaderboardList");
 const leaderboardResetBtn = document.getElementById("resetBtn");
 
+leaderboardResetBtn.addEventListener("click", resetQuiz);
+
 // store user name
 let userName = "";
 
@@ -52,6 +54,7 @@ const questions = [
 
 ];
 
+// event listeners
 startBtn.addEventListener("click", () => {
     const name = userNameInput.value.trim();
     if (name === "") {
@@ -136,15 +139,21 @@ function updateProgress() {
 // End quiz function 
 
 function endQuiz() {
-    questionContainer.textContent = `Thankyou for playing ${userName}, I hope you had fun!`;
+    // Save score to leaderboard
+    saveScore(userName, score);
+
+    questionContainer.textContent = `Thank you for playing ${userName}, I hope you had fun!`;
 
     answerContainer.innerHTML = `
         <p>Your score: ${score} / ${questions.length}</p>
         <button id="playAgainBtn">Play Again!</button>
+        <button id="showLeaderboardBtn">View Leaderboard</button>
     `;
 
     document.getElementById("playAgainBtn").addEventListener("click", resetQuiz);
+    document.getElementById("showLeaderboardBtn").addEventListener("click", showLeaderboard);
 }
+
 
 
 // reset/play again function
@@ -166,6 +175,36 @@ function resetQuiz() {
     // Reset progress text
     quizProgress.textContent = "";
 }
+
+//save score function
+function saveScore(name, score) {
+    let leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [];
+    leaderboard.push({ name, score });
+
+    // sort high → low
+    leaderboard.sort((a, b) => b.score - a.score);
+
+    // keep top 10
+    leaderboard = leaderboard.slice(0, 10);
+
+    localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
+}
+
+function showLeaderboard() {
+    quizContainer.style.display = "none";
+    leaderboardSection.style.display = "block";
+
+    const leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [];
+    leaderboardList.innerHTML = "";
+
+    leaderboard.forEach((entry, index) => {
+        const li = document.createElement("li");
+        li.textContent = `${index + 1}. ${entry.name} — ${entry.score}`;
+        leaderboardList.appendChild(li);
+    });
+}
+
+
 
 
 
