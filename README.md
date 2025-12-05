@@ -26,18 +26,25 @@ User goals are:
 
 ## User Stories 
 
-1. As a quizzer, 
-2. As football fan, 
-3. As a sport fan, 
+1. As a user, I want to be able to enter my name before starting the quiz and I want to be able to start the quiz easily
+2. As a user, I want to to be able to answer questions with multiple choices  
+3. As a user, I want to know if my answers are correct after answering each question
+4. As a user, I want to be told the correct answer if I am wrong
+5. As a user, I want to be kept up to date of my score
+6. As a user, I want to know how far into the quiz I am and how many questions are remaining
+7. As a user, I want to be able to see my final score
 
 # Design
 
 ## Wireframes
 
+![Desktop-wireframe](https://github.com/user-attachments/assets/7c590e02-e3f1-4c1b-a1da-5aa0a1868409)
+![Mobile-wirefram](https://github.com/user-attachments/assets/d6063aea-2d43-4ed8-94a1-4150a065f132)
+
 
 ## Colours
 
-- I like the black and gold theme as it gives the look of a gameshow and really stands out to the user.
+- I liked the black and gold theme as it gives the look of a gameshow and really stands out to the user. It has a great contrast and is easily readable.
 
 ## Fonts
 
@@ -46,6 +53,24 @@ User goals are:
 
 
 # Existing Features
+
+## Enter Name Screen
+
+- User can enter name at the start of the quiz
+
+## Start button
+
+- User can initiate the start of the quiz via a the start quiz button
+
+
+## Questions Section
+- User can then view questions one at a time with 4 possible answers
+
+## Progress Bar
+
+- There is a progress bar so users can see how into the quiz they are
+
+  
 
 
 ## Future Features 
@@ -108,6 +133,9 @@ User goals are:
 
 
 ## Media 
+
+
+
 
 
 
