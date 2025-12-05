@@ -111,7 +111,7 @@ function handleAnswer(selectedAnswer) {
         quizProgress.textContent = `${userName}, Wrong! Score: ${score} / ${questions.length}`;
     }
 
-    // Wait 5 seconds, then go to next question
+    // Wait 3 seconds, then go to next question
     setTimeout(() => {
         currentQuestionIndex++;
 
@@ -135,12 +135,12 @@ function endQuiz() {
 
     answerContainer.innerHTML = `
         <p>Your score: ${score} / ${questions.length}</p>
-        <button id="resetBtn">Reset Quiz</button>`;
+        <button id="resetBtn">Play Again!</button>`;
 
     document.getElementById("resetBtn").addEventListener("click", resetQuiz);
 }
 
-// reset function
+// reset/play again function
 
 function resetQuiz() {
     // Reset variables

@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!--Start page with welcome message and enter name -->
     <header>
         <h1>Football Quiz</h1>
     </header>
@@ -25,12 +26,22 @@
         <input type="text" id="userNameInput" placeholder="Your Name">
         <button id="startBtn">Start Quiz</button>
     </div>
+    <!--Quiz container-->
 
     <div class="container" id="quizContainer" style="display: none;">
         <div id="quizProgress">progress</div>
         <div class="question-container" id="questionContainer">question</div>
         <div class="answer-container" id="answerContainer">answer</div>
     </div>
+
+    <!-- Leaderboard-->
+
+    <div id="leaderboard" style="display:none;">
+        <h2>Leaderboard</h2>
+        <ol id="leaderboardList"></ol>
+        <button id="resetBtn">Play Again</button>
+    </div>
+
 
     <script src="assets/quiz.js"></script>
 </body>
