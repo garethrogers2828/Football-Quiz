@@ -193,6 +193,11 @@ function showLeaderboard() {
     quizContainer.style.display = "none";
     leaderboardSection.style.display = "block";
 
+    // Clear old quiz content
+    questionContainer.textContent = "";
+    answerContainer.innerHTML = "";
+    quizProgress.textContent = "";
+
     const leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [];
     leaderboardList.innerHTML = "";
 
