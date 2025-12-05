@@ -41,7 +41,7 @@ const questions = [
     },
     {
         question: "Who has more Premier League Clean Sheets?",
-        answers: ["Peter Schmeichel", "David James", "David De gea", "Petr Cech"],
+        answers: ["Peter Schmeichel", "David James", "David De Gea", "Petr Cech"],
         correct: "Petr Cech"
     },
 
@@ -120,7 +120,7 @@ function handleAnswer(selectedAnswer) {
         } else {
             loadQuestion();
         }
-    }, 5000);
+    }, 3000);
 }
 
 
