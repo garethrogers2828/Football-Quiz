@@ -128,10 +128,37 @@ function updateProgress() {
     quizProgress.textContent = `${currentQuestionIndex + 1} / ${questions.length}`;
 }
 
+// End quiz function 
+
 function endQuiz() {
-    questionContainer.textContent = "Quiz Finished!";
-    answerContainer.innerHTML = `Your score: ${score} / ${questions.length}`;
+    questionContainer.textContent = `Thankyou for playing ${userName}, I hope you had fun!`;
+
+    answerContainer.innerHTML = `
+        <p>Your score: ${score} / ${questions.length}</p>
+        <button id="resetBtn">Reset Quiz</button>`;
+
+    document.getElementById("resetBtn").addEventListener("click", resetQuiz);
 }
+
+// reset function
+
+function resetQuiz() {
+    // Reset variables
+    score = 0;
+    currentQuestionIndex = 0;
+    userName = "";
+
+    // Hide quiz, show start screen
+    quizContainer.style.display = "none";
+    startScreen.style.display = "block";
+
+    // Reset start screen input
+    userNameInput.value = "";
+
+    // Reset progress text
+    quizProgress.textContent = "";
+}
+
 
 
 
