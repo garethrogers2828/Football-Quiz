@@ -37,7 +37,15 @@ const questions = [
 startBtn.addEventListener("click", () => {
     const name = userNameInput.value.trim();
     if (!name) {
-        alert("Please enter your name to start the quiz!");
+        Swal.fire({
+            // shows a warning icon
+            icon: 'warning',
+            // title of the popup      
+            title: 'Name required',
+            text: 'Please enter your name to start the quiz!',
+            confirmButtonColor: '#ffd700',
+            confirmButtonText: 'OK'
+        });
         return;
     }
     userName = name;
