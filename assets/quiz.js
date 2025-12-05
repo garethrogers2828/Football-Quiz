@@ -154,8 +154,6 @@ function endQuiz() {
     document.getElementById("showLeaderboardBtn").addEventListener("click", showLeaderboard);
 }
 
-
-
 // reset/play again function
 
 function resetQuiz() {
@@ -165,8 +163,9 @@ function resetQuiz() {
     currentQuestionIndex = 0;
     userName = "";
 
-    // Hide quiz, show start screen
+    // Hide quiz and leaderboard, show start screen
     quizContainer.style.display = "none";
+    leaderboardSection.style.display = "none"; // ← hide leaderboard
     startScreen.style.display = "block";
 
     // Reset start screen input
