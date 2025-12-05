@@ -62,10 +62,18 @@ function loadQuestion() {
     questionContainer.textContent = currentQ.question;
 
     answerContainer.innerHTML = "";
+
     currentQ.answers.forEach(ans => {
         const btn = document.createElement("button");
+
         btn.textContent = ans;
+
+        // Remove previous classes (just in case)
+
+        btn.classList.remove("correct", "wrong");
+
         btn.addEventListener("click", () => handleAnswer(ans));
+
         answerContainer.appendChild(btn);
     });
 
