@@ -36,8 +36,9 @@ User goals are:
 4. As a user, I want to know if my answers are correct after answering each question
 5. As a user, I want to be told the correct answer if I am wrong
 6. As a user, I want to be kept up to date of my score
-7. As a user, I want to know how far into the quiz I am and how many questions are remaining
+7. As a user, I want to know how far into the quiz I am, and how many questions are remaining
 8. As a user, I want to be able to see my final score and a leaderboard
+9. As a user, I want to be able to restart the quiz after I have finished 
 
 # Design
 
@@ -149,6 +150,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
