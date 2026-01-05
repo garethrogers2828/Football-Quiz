@@ -8,6 +8,9 @@ Football quiz is a Premier League football quiz app designed for anyone who enjo
 
 - link to the live site here - https://garethrogers2828.github.io/Football-Quiz/
 
+  <img width="1886" height="988" alt="Responsive" src="https://github.com/user-attachments/assets/66d17f45-3df3-4176-8d3d-038e7878c9b6" />
+
+
 # Visitor Goals
 
 The target audience for Football-Quiz are:
@@ -137,6 +140,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
