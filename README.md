@@ -118,6 +118,9 @@ User goals are:
 
 ## Lighthouse Testing 
 
+<img width="1621" height="791" alt="lighthouse-desktop" src="https://github.com/user-attachments/assets/0e5147fa-9594-4eb2-b8a9-7cb0b33a3e3b" />
+<img width="1521" height="838" alt="lighthouse-mobile" src="https://github.com/user-attachments/assets/19aa76da-901c-4ca0-a4f8-e9e21719003a" />
+
 
 
 ## Bugs
@@ -154,6 +157,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
