@@ -91,12 +91,12 @@ function handleAnswer(selectedAnswer) {
     if (selectedAnswer === currentQ.correct) {
         score++;
         clickedBtn.classList.add("correct");
-        quizProgress.textContent = `${userName}, Correct! Score: ${score} / ${questions.length}`;
+        quizProgress.textContent = `Correct! Score: ${score} / ${questions.length}`;
     } else {
         clickedBtn.classList.add("wrong");
         const correctBtn = [...buttons].find(btn => btn.textContent === currentQ.correct);
         correctBtn.classList.add("correct");
-        quizProgress.textContent = `${userName}, Wrong! Score: ${score} / ${questions.length}`;
+        quizProgress.textContent = `Wrong! Score: ${score} / ${questions.length}`;
     }
 
     setTimeout(() => {
