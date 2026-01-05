@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: #000;
-    font-family: "Inter", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,14 +116,6 @@ header h1 {
     transition: 0.25s ease;
 }
 
-/* highlight answer button on hover
-
-.answer-container>*:hover {
-    background: #ffd700;
-    color: black;
-    transform: scale(1.03);
-    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
-}*/
 
 /* feedback green/correct/red/incorrect*/
 
@@ -169,6 +161,8 @@ button:disabled {
 #leaderboard {
     text-align: center;
 }
+
+/* Hover */
 
 @media (hover: hover) and (pointer: fine) {
     .answer-container>*:hover {
