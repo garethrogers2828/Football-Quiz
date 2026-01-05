@@ -68,6 +68,7 @@ User goals are:
 - User can enter name at the start of the quiz, this is good to give user the a personal touch. Would allow this information to be used in a leaderboard later on in the quiz.
 - 
 <img width="1911" height="955" alt="Quiz-Home-Page" src="https://github.com/user-attachments/assets/1c308f44-9bd7-453e-aa0a-04e050866765" />
+<img width="463" height="832" alt="mobile-homepage" src="https://github.com/user-attachments/assets/8e49a9b3-f2a6-43f2-bb9c-efac89bd78f1" />
 
 ## Start button
 
@@ -153,6 +154,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
