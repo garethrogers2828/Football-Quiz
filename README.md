@@ -57,7 +57,7 @@ User goals are:
 
 ## Fonts
 
-- i have used 
+- i have used Arial 
 
 ## Icons 
 
@@ -153,6 +153,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
