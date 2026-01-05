@@ -70,6 +70,12 @@ User goals are:
 <img width="1911" height="955" alt="Quiz-Home-Page" src="https://github.com/user-attachments/assets/1c308f44-9bd7-453e-aa0a-04e050866765" />
 <img width="463" height="832" alt="mobile-homepage" src="https://github.com/user-attachments/assets/8e49a9b3-f2a6-43f2-bb9c-efac89bd78f1" />
 
+## Sweet Alert if no name entered
+
+- User is required to enter name, if no name is entered an alert will pop up. I havve used sweetalert to give the user a more friendly experience
+  <img width="1557" height="726" alt="sweetalert" src="https://github.com/user-attachments/assets/4fdcbd16-ce08-4ffc-a415-5b2718d67a19" />
+
+
 ## Start button
 
 - User can initiate the start of the quiz via a the start quiz button, allows the user to start the quiz when they are ready. 
@@ -159,6 +165,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
