@@ -8,6 +8,9 @@ Football quiz is a Premier League football quiz app designed for anyone who enjo
 
 - link to the live site here - https://garethrogers2828.github.io/Football-Quiz/
 
+  <img width="1886" height="988" alt="Responsive" src="https://github.com/user-attachments/assets/66d17f45-3df3-4176-8d3d-038e7878c9b6" />
+
+
 # Visitor Goals
 
 The target audience for Football-Quiz are:
@@ -20,7 +23,8 @@ User goals are:
 
 - Answer questions
 - Receive feedback of correct/wrong answer
-- See my score 
+- See my score
+- See Leaderboard
 
 ## Business Goals
 
@@ -32,8 +36,9 @@ User goals are:
 4. As a user, I want to know if my answers are correct after answering each question
 5. As a user, I want to be told the correct answer if I am wrong
 6. As a user, I want to be kept up to date of my score
-7. As a user, I want to know how far into the quiz I am and how many questions are remaining
+7. As a user, I want to know how far into the quiz I am, and how many questions are remaining
 8. As a user, I want to be able to see my final score and a leaderboard
+9. As a user, I want to be able to restart the quiz after I have finished 
 
 # Design
 
@@ -47,9 +52,12 @@ User goals are:
 
 - I liked the black and gold theme as it gives the look of a gameshow and really stands out to the user. It has a great contrast and is easily readable.
 
+<img width="1772" height="702" alt="image" src="https://github.com/user-attachments/assets/03864a1b-0b18-43a8-bf73-2cf2833a19d7" />
+
+
 ## Fonts
 
-- i have used 
+- i have used Arial 
 
 ## Icons 
 
@@ -57,7 +65,10 @@ User goals are:
 
 ## Enter Name Screen
 
-- User can enter name at the start of the quiz, this is good to give user the a personal touch. Would allow this information to be used in a leaderbopard later on in the quiz. 
+- User can enter name at the start of the quiz, this is good to give user the a personal touch. Would allow this information to be used in a leaderboard later on in the quiz.
+- 
+<img width="1911" height="955" alt="Quiz-Home-Page" src="https://github.com/user-attachments/assets/1c308f44-9bd7-453e-aa0a-04e050866765" />
+<img width="463" height="832" alt="mobile-homepage" src="https://github.com/user-attachments/assets/8e49a9b3-f2a6-43f2-bb9c-efac89bd78f1" />
 
 ## Start button
 
@@ -65,11 +76,18 @@ User goals are:
 
 ## Questions Section
 
-- User can then view questions one at a time with 4 possible answers. Users can take their time and are given feedback when they are correct/wrong. The correct answer button is highlighted green and if the user answrers in-correctly then this button will highlight in red. Great for improving the users knowledge.
+- User can then view questions one at a time with 4 possible answers. Users can take their time and are given feedback when they are correct/wrong. The correct answer button is highlighted green and if the user answers in-correctly then this button will highlight in red. Great for improving the users knowledge.
+
+  <img width="1902" height="973" alt="questions-page" src="https://github.com/user-attachments/assets/e649d028-fe5d-4773-99aa-0755ae633028" />
+
+<img width="466" height="837" alt="questions-page-mobile" src="https://github.com/user-attachments/assets/020eb764-0604-41be-846c-c35c8800767e" />
 
 ## Progress Bar
 
-- There is a progress bar so users can see how far into the quiz they are and how many questions they have left. 
+- There is a progress bar so users can see how far into the quiz they are and how many questions they have left. This is important to the user as they know roughly how long th quiz will take and if they are close to the end for extra motivation.
+
+<img width="1003" height="265" alt="progress-bar" src="https://github.com/user-attachments/assets/75efda5f-f74f-4780-9673-62d604aa0e09" />
+
 
  ##  Reset Button
 
@@ -78,7 +96,7 @@ User goals are:
 
 ## Future Features 
 
-
+- New round of questions 
 
 ## How to View the Project
 
@@ -136,6 +154,14 @@ User goals are:
 
 
 ## Media 
+
+
+
+
+
+
+
+
 
 
 
