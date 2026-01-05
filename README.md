@@ -52,6 +52,9 @@ User goals are:
 
 - I liked the black and gold theme as it gives the look of a gameshow and really stands out to the user. It has a great contrast and is easily readable.
 
+<img width="1772" height="702" alt="image" src="https://github.com/user-attachments/assets/03864a1b-0b18-43a8-bf73-2cf2833a19d7" />
+
+
 ## Fonts
 
 - i have used 
@@ -150,6 +153,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
