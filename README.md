@@ -71,11 +71,18 @@ User goals are:
 
 ## Questions Section
 
-- User can then view questions one at a time with 4 possible answers. Users can take their time and are given feedback when they are correct/wrong. The correct answer button is highlighted green and if the user answrers in-correctly then this button will highlight in red. Great for improving the users knowledge.
+- User can then view questions one at a time with 4 possible answers. Users can take their time and are given feedback when they are correct/wrong. The correct answer button is highlighted green and if the user answers in-correctly then this button will highlight in red. Great for improving the users knowledge.
+
+  <img width="1902" height="973" alt="questions-page" src="https://github.com/user-attachments/assets/e649d028-fe5d-4773-99aa-0755ae633028" />
+
+<img width="466" height="837" alt="questions-page-mobile" src="https://github.com/user-attachments/assets/020eb764-0604-41be-846c-c35c8800767e" />
 
 ## Progress Bar
 
-- There is a progress bar so users can see how far into the quiz they are and how many questions they have left. 
+- There is a progress bar so users can see how far into the quiz they are and how many questions they have left. This is important to the user as they know roughly how long th quiz will take and if they are close to the end for extra motivation.
+
+<img width="1003" height="265" alt="progress-bar" src="https://github.com/user-attachments/assets/75efda5f-f74f-4780-9673-62d604aa0e09" />
+
 
  ##  Reset Button
 
@@ -142,6 +149,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
