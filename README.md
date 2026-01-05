@@ -20,7 +20,8 @@ User goals are:
 
 - Answer questions
 - Receive feedback of correct/wrong answer
-- See my score 
+- See my score
+- See Leaderboard
 
 ## Business Goals
 
@@ -57,7 +58,7 @@ User goals are:
 
 ## Enter Name Screen
 
-- User can enter name at the start of the quiz, this is good to give user the a personal touch. Would allow this information to be used in a leaderbopard later on in the quiz. 
+- User can enter name at the start of the quiz, this is good to give user the a personal touch. Would allow this information to be used in a leaderboard later on in the quiz. 
 
 ## Start button
 
@@ -78,7 +79,7 @@ User goals are:
 
 ## Future Features 
 
-
+- New round of questions 
 
 ## How to View the Project
 
@@ -136,6 +137,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
