@@ -65,14 +65,14 @@ User goals are:
 
 ## Enter Name Screen
 
-- User can enter name at the start of the quiz, this is good to give user the a personal touch. Would allow this information to be used in a leaderboard later on in the quiz.
+- User can enter name at the start of the quiz. This is good to give user the a quick personal touch and would allow this information to be used in a leaderboard later on in the quiz.
 - 
 <img width="1911" height="955" alt="Quiz-Home-Page" src="https://github.com/user-attachments/assets/1c308f44-9bd7-453e-aa0a-04e050866765" />
 <img width="463" height="832" alt="mobile-homepage" src="https://github.com/user-attachments/assets/8e49a9b3-f2a6-43f2-bb9c-efac89bd78f1" />
 
 ## Sweet Alert if no name entered
 
-- User is required to enter name, if no name is entered an alert will pop up. I havve used sweetalert to give the user a more friendly experience
+- User is required to enter name, if no name is entered an alert will pop up. I havve used sweetalert to give the user a more friendly feedback experience
   <img width="1557" height="726" alt="sweetalert" src="https://github.com/user-attachments/assets/4fdcbd16-ce08-4ffc-a415-5b2718d67a19" />
 
 
@@ -82,7 +82,7 @@ User goals are:
 
 ## Questions Section
 
-- User can then view questions one at a time with 4 possible answers. Users can take their time and are given feedback when they are correct/wrong. The correct answer button is highlighted green and if the user answers in-correctly then this button will highlight in red. Great for improving the users knowledge.
+- After the user has clicked start quiz they can then view questions one at a time with 4 possible answers. Users can take their time and are given feedback when they are correct or wrong. The correct answer button is highlighted green and if the user answers in-correctly then this button will highlight in red. Great for improving the users knowledge as the correct answer will be highlighted green even if the user gets the question wrong.
 
   <img width="1902" height="973" alt="questions-page" src="https://github.com/user-attachments/assets/e649d028-fe5d-4773-99aa-0755ae633028" />
 
@@ -102,7 +102,13 @@ User goals are:
 
 ## Future Features 
 
-- New round of questions 
+- New round of questions
+
+## Technologies used 
+
+- HTML
+- CSS
+- Javascript
 
 ## How to View the Project
 
@@ -165,6 +171,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
