@@ -57,9 +57,7 @@ User goals are:
 
 ## Fonts
 
-- i have used Arial 
-
-## Icons 
+- I have used Arial 
 
 # Existing Features
 
@@ -112,9 +110,11 @@ User goals are:
 
 ## How to View the Project
 
-
+https://garethrogers2828.github.io/Football-Quiz/
 
 # Testing
+
+## User Story testing
 
 | User Story                                                                                                            | Result |
 | --------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -129,12 +129,9 @@ User goals are:
 | As a user, I want to be able to restart the quiz after I have finished                                                | Pass   |
 |                                                                                                                       |        |                          
 
-## User Story testing
 
 
-                                                                                          
-
-
+                                                                                        
 ## Manual testing 
 
 | Feature                    | Steps                                         | Expected Outcome                                                                                                                                                   | Outcome |
@@ -211,6 +208,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
