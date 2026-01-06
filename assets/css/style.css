@@ -172,3 +172,38 @@ button:disabled {
         box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
     }
 }
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    margin-top: auto;
+    /* pushes footer to bottom */
+    padding: 1.5rem 0;
+    text-align: center;
+    background: #000;
+    color: #ffd700;
+    box-shadow: 0 -4px 10px rgba(255, 215, 0, 0.25);
+}
+
+.footer p {
+    margin: 0 0 0.8rem;
+    font-size: 0.9rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-icons a {
+    color: #ffd700;
+    font-size: 1.5rem;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: white;
+    transform: scale(1.2);
+}
