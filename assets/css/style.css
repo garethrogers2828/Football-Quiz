@@ -11,10 +11,6 @@ body {
     color: #ffd700;
 }
 
-h1 {
-    font-size: 6rem;
-}
-
 /* start screen*/
 
 .start-screen {
@@ -43,7 +39,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 700;
     letter-spacing: 1px;
 }
