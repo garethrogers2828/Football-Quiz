@@ -11,6 +11,10 @@ body {
     color: #ffd700;
 }
 
+h1 {
+    font-size: 6rem;
+}
+
 /* start screen*/
 
 .start-screen {
