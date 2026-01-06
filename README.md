@@ -124,6 +124,33 @@ User goals are:
 
 ## Manual testing 
 
+| Feature                    | Steps                                         | Expected Outcome                                                                                                                                                   | Outcome |
+| -------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
+| Home screen                |                                               |                                                                                                                                                                    |         |
+| Introduction               |                                               | Introduction to the Quiz explaining what it is and how long                                                                                                        | Pass    |
+| Start Quiz                 | User clicks Start Quiz                        | Quiz starts providing user has entered a name                                                                                                                      | Pass    |
+| Enter Name                 | User doesn't enter name and clicks Start Quiz | Sweet Alert pop up asking user to enter name                                                                                                                       | Pass    |
+| Start Quiz Button          | User Hovers over the button                   | Button highlights white                                                                                                                                            | Pass    |
+|                            |                                               |                                                                                                                                                                    |         |
+| Questions Screen           |                                               |                                                                                                                                                                    |         |
+|                            |                                               |                                                                                                                                                                    |         |
+| Questions and Progress bar |                                               | User Can see each question 1 by 1 and their progress as they go through the quiz                                                                                   | Pass    |
+| Answer Button              | User hovers over an answer button             | Button highlights gold and text changes colour to black                                                                                                            | Pass    |
+| Answer Button/s            | User clicks an answer button                  | If correct this button will highlight Green and the text will change colour to White                                                                               | Pass    |
+| Answer Button/s            | User clicks an answer button                  | If incorrect this button will highlight Red and the text will change colour to White. The correct answer will be highlighted Green and text also changed to white. | Pass    |
+| Answer Button/s            | User clicks an answer button                  | 3 second delay until next questions loads                                                                                                                          | Pass    |
+|                            |                                               |                                                                                                                                                                    |         |
+| Results Screen             |                                               |                                                                                                                                                                    |         |
+| Thank you message          |                                               | Thanks the user for playing and shows them their score.                                                                                                            | Pass    |
+| Play Again Button          | User Clicks Play Again Button                 | The user is directed back to the home page and can re enter their name to play the quiz again                                                                      | Pass    |
+| Play Again Button          | User Hovers                                   | Button highlights gold and text changes colour to black                                                                                                            | Pass    |
+| View Leaderboard           | User Hovers                                   | Button highlights gold and text changes colour to black                                                                                                            | Pass    |
+| View Leaderboard           | User Clicks View Leaderboard Button           | User taken to leaderboard                                                                                                                                          | Pass    |
+|                            |                                               |                                                                                                                                                                    |         |
+| Leaderboard Screen         |                                               | User can see their score and where they came on the leaderboard                                                                                                    |         |
+| Play Again Button          | User Clicks Play Again Button                 | The user is directed back to the home page and can re enter their name to play the quiz again                                                                      | Pass    |
+| Play Again Button          | User Hovers                                   | Button highlights White                                                                                                                                            | Pass    |
+
 
 ## Validator Testing
 
@@ -171,6 +198,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
