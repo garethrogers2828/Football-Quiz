@@ -116,9 +116,22 @@ User goals are:
 
 # Testing
 
-                               
+| User Story                                                                                                            | Result |
+| --------------------------------------------------------------------------------------------------------------------- | ------ |
+| As a user, I want to be able to enter my name before starting the quiz and I want to be able to start the quiz easily | Pass   |
+| As a user, i want to be able to understand exactly what the site is for when arriving                                 | Pass   |
+| As a user, I want to to be able to answer questions with multiple choices                                             | Pass   |
+| As a user, I want to know if my answers are correct after answering each question                                     | Pass   |
+| As a user, I want to be told the correct answer if I am wrong                                                         | Pass   |
+| As a user, I want to be kept up to date of my score                                                                   | Pass   |
+| As a user, I want to know how far into the quiz I am, and how many questions are remaining                            | Pass   |
+| As a user, I want to be able to see my final score and a leaderboard                                                  | Pass   |
+| As a user, I want to be able to restart the quiz after I have finished                                                | Pass   |
+|                                                                                                                       |        |                          
 
 ## User Story testing
+
+
                                                                                           
 
 
@@ -198,6 +211,7 @@ User goals are:
 
 
 ## Media 
+
 
 
 
