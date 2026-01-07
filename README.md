@@ -119,7 +119,8 @@ The business goals for this app are:
 ## Leaderboard
 
 - Users can click the leaderboard button and view where they placed. 
- screen shot to be put here - 
+<img width="719" height="415" alt="leaderboard" src="https://github.com/user-attachments/assets/ad3b0de4-4111-4b37-9e3c-743427a730a3" />
+
 
 ## Future Features 
 
@@ -210,7 +211,7 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 ## Bugs
 
-1. leaderboard is printing thre position twice. 1. 1. and 2. 2. etc
+1. leaderboard is printing the player position twice. 1. 1. and 2. 2. etc. This was caused by using an ordered list in HTML and also logging postion in Javascript. I have now removed the javascript code so this now displays correctly and the postions only show once. 
 
  
 
@@ -256,6 +257,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 
 
 ## Media 
+
 
 
 
