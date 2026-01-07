@@ -7,8 +7,10 @@
 Football quiz is a Premier League football quiz app designed for anyone who enjoys quizzing, sport, football and testing their knowledge. 
 
 - link to the live site here - https://garethrogers2828.github.io/Football-Quiz/
+  
+<img width="1880" height="710" alt="Responsive" src="https://github.com/user-attachments/assets/874cd711-39f4-4987-848d-e511b8f6a597" />
 
-  <img width="1886" height="988" alt="Responsive" src="https://github.com/user-attachments/assets/66d17f45-3df3-4176-8d3d-038e7878c9b6" />
+  
 
 
 # Visitor Goals
@@ -240,6 +242,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 
 
 ## Media 
+
 
 
 
