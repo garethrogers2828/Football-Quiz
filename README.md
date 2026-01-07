@@ -11,8 +11,6 @@ Football quiz is a Premier League football quiz app designed for anyone who enjo
 <img width="1880" height="710" alt="Responsive" src="https://github.com/user-attachments/assets/874cd711-39f4-4987-848d-e511b8f6a597" />
 
   
-
-
 # Visitor Goals
 
 The target audience for Football-Quiz are:
@@ -77,7 +75,8 @@ The business goals for this app are:
 ## Sweet Alert if no name entered
 
 - User is required to enter name, if no name is entered an alert will pop up. I havve used sweetalert to give the user a more friendly feedback experience
-  <img width="1557" height="726" alt="sweetalert" src="https://github.com/user-attachments/assets/4fdcbd16-ce08-4ffc-a415-5b2718d67a19" />
+  
+<img width="1204" height="490" alt="sweetalert" src="https://github.com/user-attachments/assets/f1f10b19-bfdd-4402-9649-6d159f07f06f" />
 
 
 ## Start button
@@ -242,6 +241,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 
 
 ## Media 
+
 
 
 
