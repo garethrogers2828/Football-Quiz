@@ -207,14 +207,27 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 ## Credits
 
+I watched 3-4 youtube quiz tutorials before and during his project to help my understanding of the new language and syntax.
+
+- https://www.youtube.com/watch?v=_FnFPmA87XU
+- https://www.youtube.com/watch?v=rFWbAj40JrQ&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF
+
+I also used Chatgpt to help with troubleshooting and problem solving issues. This helps breakdown more complex code and simplify
+
+- https://chatgpt.com/
+
+  I used Fontawesome for the social media fonts
+  
+- https://fontawesome.com/
 
 
 ## Content 
 
-
+- Content was created by me. Answers to questions searched on Google.
 
 
 ## Media 
+
 
 
 
