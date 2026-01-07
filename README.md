@@ -110,6 +110,10 @@ The business goals for this app are:
  - Users can reset the quiz and restart without refreshing their browser. Great for the user to be able to very quickly play the quiz again with their renewed knowledge
  - This button is visable at the end of the quiz, it is also available from the leaderboard section
 
+## Leaderboard
+
+- Users can click the leaderboard button and view where they placed. 
+ screen shot to be put here - 
 
 ## Future Features 
 
@@ -146,6 +150,9 @@ https://garethrogers2828.github.io/Football-Quiz/
 
                                                                                         
 ## Manual testing 
+
+- I tested the device personally for both Mobile and desktop. I had colleagues friends and family do the same.
+- The site has been tested on chrome and edge browsers and safari on mobile.
 
 | Feature                    | Steps                                         | Expected Outcome                                                                                                                                                   | Outcome |
 | -------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
@@ -241,6 +248,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 
 
 ## Media 
+
 
 
 
