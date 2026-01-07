@@ -91,6 +91,8 @@ The business goals for this app are:
 
 <img width="466" height="837" alt="questions-page-mobile" src="https://github.com/user-attachments/assets/020eb764-0604-41be-846c-c35c8800767e" />
 
+- When the user hovers over the answer button, the button will highlight gold to show they are within the clicking range
+
 ## Progress Bar
 
 - There is a progress bar so users can see how far into the quiz they are and how many questions they have left. This is important to the user as they know roughly how long th quiz will take and if they are close to the end for extra motivation.
@@ -143,8 +145,8 @@ https://garethrogers2828.github.io/Football-Quiz/
 | -------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
 | Home screen                |                                               |                                                                                                                                                                    |         |
 | Introduction               |                                               | Introduction to the Quiz explaining what it is and how long                                                                                                        | Pass    |
-| Start Quiz                 | User clicks Start Quiz                        | Quiz starts providing user has entered a name                                                                                                                      | Pass    |
-| Enter Name                 | User doesn't enter name and clicks Start Quiz | Sweet Alert pop up asking user to enter name                                                                                                                       | Pass    |
+| Start Quiz Button          | User clicks Start Quiz                        | Quiz starts providing user has entered a name                                                                                                                      | Pass    |
+| Enter Name box             | User doesn't enter name and clicks Start Quiz | Sweet Alert pop up asking user to enter name                                                                                                                       | Pass    |
 | Start Quiz Button          | User Hovers over the button                   | Button highlights white                                                                                                                                            | Pass    |
 |                            |                                               |                                                                                                                                                                    |         |
 | Questions Screen           |                                               |                                                                                                                                                                    |         |
@@ -213,6 +215,7 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 
 ## Media 
+
 
 
 
