@@ -80,7 +80,10 @@ The business goals for this app are:
 
 ## Start button
 
-- User can initiate the start of the quiz via a the start quiz button, allows the user to start the quiz when they are ready. 
+- User can initiate the start of the quiz via a the start quiz button, allows the user to start the quiz when they are ready.
+
+<img width="441" height="68" alt="start-quiz-button" src="https://github.com/user-attachments/assets/46a8b1cb-3f48-45cc-9d33-33b6337cb375" />
+
 
 ## Questions Section
 
@@ -237,6 +240,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 
 
 ## Media 
+
 
 
 
