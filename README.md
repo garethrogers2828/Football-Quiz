@@ -174,6 +174,14 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 ## Validator Testing
 
+- HTML validation pass 
+<img width="1826" height="930" alt="html-validation" src="https://github.com/user-attachments/assets/742eec72-d3bf-4e04-99be-e2783ece152a" />
+
+- CSS Validation
+- <img width="1836" height="470" alt="css-validation" src="https://github.com/user-attachments/assets/46e92c93-21f8-4dfd-94fb-bb34f657a021" />
+
+
+  
 
 ## Lighthouse Testing 
 
@@ -230,6 +238,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 
 
 ## Media 
+
 
 
 
