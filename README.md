@@ -28,6 +28,11 @@ User goals are:
 
 ## Business Goals
 
+The business goals for this app are:
+
+- Generate more awareness
+- User engagement and Data Collection
+
 ## User Stories 
 
 1. As a user, I want to be able to enter my name before starting the quiz and I want to be able to start the quiz easily
@@ -208,6 +213,7 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 
 ## Media 
+
 
 
 
