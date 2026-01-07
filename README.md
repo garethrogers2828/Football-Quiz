@@ -7,10 +7,10 @@
 Football quiz is a Premier League football quiz app designed for anyone who enjoys quizzing, sport, football and testing their knowledge. 
 
 - link to the live site here - https://garethrogers2828.github.io/Football-Quiz/
+  
+<img width="1880" height="710" alt="Responsive" src="https://github.com/user-attachments/assets/874cd711-39f4-4987-848d-e511b8f6a597" />
 
-  <img width="1886" height="988" alt="Responsive" src="https://github.com/user-attachments/assets/66d17f45-3df3-4176-8d3d-038e7878c9b6" />
-
-
+  
 # Visitor Goals
 
 The target audience for Football-Quiz are:
@@ -69,29 +69,34 @@ The business goals for this app are:
 ## Enter Name Screen
 
 - User can enter name at the start of the quiz. This is good to give user the a quick personal touch and would allow this information to be used in a leaderboard later on in the quiz.
-- 
-<img width="1911" height="955" alt="Quiz-Home-Page" src="https://github.com/user-attachments/assets/1c308f44-9bd7-453e-aa0a-04e050866765" />
-<img width="463" height="832" alt="mobile-homepage" src="https://github.com/user-attachments/assets/8e49a9b3-f2a6-43f2-bb9c-efac89bd78f1" />
+
+<img width="1910" height="892" alt="Quiz-Home-Page" src="https://github.com/user-attachments/assets/654e770e-ef8e-4a77-ae6a-6caba3e57ff4" />
 
 ## Sweet Alert if no name entered
 
 - User is required to enter name, if no name is entered an alert will pop up. I havve used sweetalert to give the user a more friendly feedback experience
-  <img width="1557" height="726" alt="sweetalert" src="https://github.com/user-attachments/assets/4fdcbd16-ce08-4ffc-a415-5b2718d67a19" />
+  
+<img width="1204" height="490" alt="sweetalert" src="https://github.com/user-attachments/assets/f1f10b19-bfdd-4402-9649-6d159f07f06f" />
 
 
 ## Start button
 
-- User can initiate the start of the quiz via a the start quiz button, allows the user to start the quiz when they are ready. 
+- User can initiate the start of the quiz via a the start quiz button, allows the user to start the quiz when they are ready.
+
+<img width="441" height="68" alt="start-quiz-button" src="https://github.com/user-attachments/assets/46a8b1cb-3f48-45cc-9d33-33b6337cb375" />
+
 
 ## Questions Section
 
 - After the user has clicked start quiz they can then view questions one at a time with 4 possible answers. Users can take their time and are given feedback when they are correct or wrong. The correct answer button is highlighted green and if the user answers in-correctly then this button will highlight in red. Great for improving the users knowledge as the correct answer will be highlighted green even if the user gets the question wrong.
 
-  <img width="1902" height="973" alt="questions-page" src="https://github.com/user-attachments/assets/e649d028-fe5d-4773-99aa-0755ae633028" />
-
-<img width="466" height="837" alt="questions-page-mobile" src="https://github.com/user-attachments/assets/020eb764-0604-41be-846c-c35c8800767e" />
+<img width="1913" height="893" alt="questions-page" src="https://github.com/user-attachments/assets/7dcaee11-9e51-4cc3-9b18-b50f0e8869b1" />
+<img width="470" height="326" alt="correct-answer-feedback" src="https://github.com/user-attachments/assets/f4fdb676-546b-4c7e-a3d0-326f676b0c19" />
+<img width="508" height="354" alt="incorrect-answer-feedback" src="https://github.com/user-attachments/assets/d8f18f26-8364-41f8-aa8a-2a4d25b30015" />
 
 - When the user hovers over the answer button, the button will highlight gold to show they are within the clicking range
+
+<img width="440" height="342" alt="hover-answer" src="https://github.com/user-attachments/assets/f6a12169-dcba-485e-8214-c0d2c46a9f6c" />
 
 ## Progress Bar
 
@@ -102,11 +107,19 @@ The business goals for this app are:
 - When user clicks answer the progress bar temorarily shows them how many answers they have correct. This then reverts back to the question number 
 
 
- ##  Play Again Button
+ ##  Play Again Button/Results page
 
  - Users can reset the quiz and restart without refreshing their browser. Great for the user to be able to very quickly play the quiz again with their renewed knowledge
  - This button is visable at the end of the quiz, it is also available from the leaderboard section
+ - 
+<img width="870" height="583" alt="results-page" src="https://github.com/user-attachments/assets/d2abf730-5430-42ce-a322-33bd7b578384" />
 
+
+
+## Leaderboard
+
+- Users can click the leaderboard button and view where they placed. 
+ screen shot to be put here - 
 
 ## Future Features 
 
@@ -144,6 +157,9 @@ https://garethrogers2828.github.io/Football-Quiz/
                                                                                         
 ## Manual testing 
 
+- I tested the device personally for both Mobile and desktop. I had colleagues friends and family do the same.
+- The site has been tested on chrome and edge browsers and safari on mobile.
+
 | Feature                    | Steps                                         | Expected Outcome                                                                                                                                                   | Outcome |
 | -------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
 | Home screen                |                                               |                                                                                                                                                                    |         |
@@ -174,6 +190,14 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 ## Validator Testing
 
+- HTML validation pass 
+<img width="1826" height="930" alt="html-validation" src="https://github.com/user-attachments/assets/742eec72-d3bf-4e04-99be-e2783ece152a" />
+
+- CSS Validation
+- <img width="1836" height="470" alt="css-validation" src="https://github.com/user-attachments/assets/46e92c93-21f8-4dfd-94fb-bb34f657a021" />
+
+
+  
 
 ## Lighthouse Testing 
 
@@ -185,6 +209,8 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 
 ## Bugs
+
+1. leaderboard is printing thre position twice. 1. 1. and 2. 2. etc
 
  
 
@@ -230,6 +256,16 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 
 
 ## Media 
+
+
+
+
+
+
+
+
+
+
 
 
 
