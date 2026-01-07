@@ -28,6 +28,11 @@ User goals are:
 
 ## Business Goals
 
+The business goals for this app are:
+
+- Generate more awareness
+- User engagement and Data Collection
+
 ## User Stories 
 
 1. As a user, I want to be able to enter my name before starting the quiz and I want to be able to start the quiz easily
@@ -86,16 +91,21 @@ User goals are:
 
 <img width="466" height="837" alt="questions-page-mobile" src="https://github.com/user-attachments/assets/020eb764-0604-41be-846c-c35c8800767e" />
 
+- When the user hovers over the answer button, the button will highlight gold to show they are within the clicking range
+
 ## Progress Bar
 
 - There is a progress bar so users can see how far into the quiz they are and how many questions they have left. This is important to the user as they know roughly how long th quiz will take and if they are close to the end for extra motivation.
 
 <img width="1003" height="265" alt="progress-bar" src="https://github.com/user-attachments/assets/75efda5f-f74f-4780-9673-62d604aa0e09" />
 
+- When user clicks answer the progress bar temorarily shows them how many answers they have correct. This then reverts back to the question number 
 
- ##  Reset Button
 
- - Users can reset the quiz and restart without refreshing their browser. Great for the user to be able to very quickly play the quiz again with their renewed knowledge.
+ ##  Play Again Button
+
+ - Users can reset the quiz and restart without refreshing their browser. Great for the user to be able to very quickly play the quiz again with their renewed knowledge
+ - This button is visable at the end of the quiz, it is also available from the leaderboard section
 
 
 ## Future Features 
@@ -138,8 +148,8 @@ https://garethrogers2828.github.io/Football-Quiz/
 | -------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
 | Home screen                |                                               |                                                                                                                                                                    |         |
 | Introduction               |                                               | Introduction to the Quiz explaining what it is and how long                                                                                                        | Pass    |
-| Start Quiz                 | User clicks Start Quiz                        | Quiz starts providing user has entered a name                                                                                                                      | Pass    |
-| Enter Name                 | User doesn't enter name and clicks Start Quiz | Sweet Alert pop up asking user to enter name                                                                                                                       | Pass    |
+| Start Quiz Button          | User clicks Start Quiz                        | Quiz starts providing user has entered a name                                                                                                                      | Pass    |
+| Enter Name box             | User doesn't enter name and clicks Start Quiz | Sweet Alert pop up asking user to enter name                                                                                                                       | Pass    |
 | Start Quiz Button          | User Hovers over the button                   | Button highlights white                                                                                                                                            | Pass    |
 |                            |                                               |                                                                                                                                                                    |         |
 | Questions Screen           |                                               |                                                                                                                                                                    |         |
@@ -186,7 +196,7 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 - The site has been managed within git-hub.
 
-
+- https://github.com/garethrogers2828/Football-Quiz
 
 ## Deployment
 
@@ -200,14 +210,31 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 ## Credits
 
+I watched 3-4 youtube quiz tutorials before and during his project to help my understanding of the new language and syntax.
+
+- https://www.youtube.com/watch?v=_FnFPmA87XU
+- https://www.youtube.com/watch?v=rFWbAj40JrQ&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF
+
+I also used Chatgpt to help with troubleshooting and problem solving issues. This helps breakdown more complex code and simplify
+
+- https://chatgpt.com/
+
+  I used Fontawesome for the social media fonts
+  
+- https://fontawesome.com/
 
 
 ## Content 
 
-
+- Content was created by me. Answers to questions searched on Google.
 
 
 ## Media 
+
+
+
+
+
 
 
 
