@@ -86,9 +86,9 @@ The business goals for this app are:
 
 - After the user has clicked start quiz they can then view questions one at a time with 4 possible answers. Users can take their time and are given feedback when they are correct or wrong. The correct answer button is highlighted green and if the user answers in-correctly then this button will highlight in red. Great for improving the users knowledge as the correct answer will be highlighted green even if the user gets the question wrong.
 
-<img width="1902" height="973" alt="questions-page" src="https://github.com/user-attachments/assets/e649d028-fe5d-4773-99aa-0755ae633028" />
+<img width="1913" height="893" alt="questions-page" src="https://github.com/user-attachments/assets/7dcaee11-9e51-4cc3-9b18-b50f0e8869b1" />
 
-<img width="466" height="837" alt="questions-page-mobile" src="https://github.com/user-attachments/assets/020eb764-0604-41be-846c-c35c8800767e" />
+
 
 - When the user hovers over the answer button, the button will highlight gold to show they are within the clicking range
 
@@ -237,6 +237,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 
 
 ## Media 
+
 
 
 
