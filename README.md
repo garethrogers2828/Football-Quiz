@@ -193,7 +193,7 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 - The site has been managed within git-hub.
 
-
+- https://github.com/garethrogers2828/Football-Quiz
 
 ## Deployment
 
@@ -227,6 +227,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 
 
 ## Media 
+
 
 
 
