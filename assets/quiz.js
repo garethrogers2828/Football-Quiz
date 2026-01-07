@@ -171,7 +171,7 @@ function showLeaderboard() {
 
     leaderboard.forEach((entry, index) => {
         const li = document.createElement("li");
-        li.textContent = `${index + 1}. ${entry.name} — ${entry.score}`;
+        li.textContent = `${entry.name} — ${entry.score}`;
         leaderboardList.appendChild(li);
     });
 }
