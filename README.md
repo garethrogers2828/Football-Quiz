@@ -210,6 +210,8 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 ## Bugs
 
+1. leaderboard is printing thre position twice. 1. 1. and 2. 2. etc
+
  
 
 ## IDE
@@ -254,6 +256,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 
 
 ## Media 
+
 
 
 
