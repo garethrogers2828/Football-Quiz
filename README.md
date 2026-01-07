@@ -107,10 +107,14 @@ The business goals for this app are:
 - When user clicks answer the progress bar temorarily shows them how many answers they have correct. This then reverts back to the question number 
 
 
- ##  Play Again Button
+ ##  Play Again Button/Results page
 
  - Users can reset the quiz and restart without refreshing their browser. Great for the user to be able to very quickly play the quiz again with their renewed knowledge
  - This button is visable at the end of the quiz, it is also available from the leaderboard section
+ - 
+<img width="870" height="583" alt="results-page" src="https://github.com/user-attachments/assets/d2abf730-5430-42ce-a322-33bd7b578384" />
+
+
 
 ## Leaderboard
 
@@ -250,6 +254,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 
 
 ## Media 
+
 
 
 
