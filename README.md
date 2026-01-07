@@ -69,9 +69,8 @@ The business goals for this app are:
 ## Enter Name Screen
 
 - User can enter name at the start of the quiz. This is good to give user the a quick personal touch and would allow this information to be used in a leaderboard later on in the quiz.
-- 
-<img width="1911" height="955" alt="Quiz-Home-Page" src="https://github.com/user-attachments/assets/1c308f44-9bd7-453e-aa0a-04e050866765" />
-<img width="463" height="832" alt="mobile-homepage" src="https://github.com/user-attachments/assets/8e49a9b3-f2a6-43f2-bb9c-efac89bd78f1" />
+
+<img width="1910" height="892" alt="Quiz-Home-Page" src="https://github.com/user-attachments/assets/654e770e-ef8e-4a77-ae6a-6caba3e57ff4" />
 
 ## Sweet Alert if no name entered
 
@@ -87,7 +86,7 @@ The business goals for this app are:
 
 - After the user has clicked start quiz they can then view questions one at a time with 4 possible answers. Users can take their time and are given feedback when they are correct or wrong. The correct answer button is highlighted green and if the user answers in-correctly then this button will highlight in red. Great for improving the users knowledge as the correct answer will be highlighted green even if the user gets the question wrong.
 
-  <img width="1902" height="973" alt="questions-page" src="https://github.com/user-attachments/assets/e649d028-fe5d-4773-99aa-0755ae633028" />
+<img width="1902" height="973" alt="questions-page" src="https://github.com/user-attachments/assets/e649d028-fe5d-4773-99aa-0755ae633028" />
 
 <img width="466" height="837" alt="questions-page-mobile" src="https://github.com/user-attachments/assets/020eb764-0604-41be-846c-c35c8800767e" />
 
@@ -238,6 +237,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 
 
 ## Media 
+
 
 
 
