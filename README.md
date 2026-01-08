@@ -142,6 +142,8 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 ## Responsiveness
 
+- https://ui.dev/amiresponsive?url=https://garethrogers2828.github.io/Football-Quiz/
+
 <img width="1880" height="710" alt="Responsive" src="https://github.com/user-attachments/assets/4a716c34-3147-486d-8731-6e5d65b766d3" />
 
 
@@ -261,6 +263,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 ## Content 
 
 - Content was created by me. Answers to questions searched on Google.
+
 
 
 
