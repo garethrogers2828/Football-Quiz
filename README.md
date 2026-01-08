@@ -150,7 +150,7 @@ https://garethrogers2828.github.io/Football-Quiz/
 | User Story                                                                                                            | Result |
 | --------------------------------------------------------------------------------------------------------------------- | ------ |
 | As a user, I want to be able to enter my name before starting the quiz and I want to be able to start the quiz easily | Pass   |
-| As a user, i want to be able to understand exactly what the site is for when arriving                                 | Pass   |
+| As a user, I want to be able to understand exactly what the site is for when arriving                                 | Pass   |
 | As a user, I want to to be able to answer questions with multiple choices                                             | Pass   |
 | As a user, I want to know if my answers are correct after answering each question                                     | Pass   |
 | As a user, I want to be told the correct answer if I am wrong                                                         | Pass   |
@@ -158,9 +158,9 @@ https://garethrogers2828.github.io/Football-Quiz/
 | As a user, I want to know how far into the quiz I am, and how many questions are remaining                            | Pass   |
 | As a user, I want to be able to see my final score and a leaderboard                                                  | Pass   |
 | As a user, I want to be able to restart the quiz after I have finished                                                | Pass   |
-| As a user need the site to be responsive on all devices as I often use mobile as well as laptop and desktop           |Pass   |                                                                                                            |        |                          
+| As a user, I need the site to be responsive on all devices as I often use mobile as well as laptop and desktop           |Pass   |                                                                                                            |        |                          
 
-                                                                                  
+                                                                                
 ## Manual testing 
 
 - I tested the device personally for both Mobile and desktop. I had colleagues friends and family do the same.
@@ -168,7 +168,7 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 | Feature                    | Steps                                         | Expected Outcome                                                                                                                                                   | Outcome |
 | -------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
-| Home screen                |                                               |                                                                                                                                                                    |         |
+| Home screen/Enter Name Screen                 |                                               |                                                                                                                                                                    |         |
 | Introduction               |                                               | Introduction to the Quiz explaining what it is and how long                                                                                                        | Pass    |
 | Start Quiz Button          | User clicks Start Quiz                        | Quiz starts providing user has entered a name                                                                                                                      | Pass    |
 | Enter Name box             | User doesn't enter name and clicks Start Quiz | Sweet Alert pop up asking user to enter name                                                                                                                       | Pass    |
@@ -191,8 +191,9 @@ https://garethrogers2828.github.io/Football-Quiz/
 |                            |                                               |                                                                                                                                                                    |         |
 | Leaderboard Screen         |                                               | User can see their score and where they came on the leaderboard                                                                                                    |  Pass       |
 | Play Again Button          | User Clicks Play Again Button                 | The user is directed back to the home page and can re enter their name to play the quiz again                                                                      | Pass    |
-| Play Again Button          | User Hovers                                   | Button highlights White                                                                                                                                            | Pass    |
-
+| Play Again Button          | User Hovers                                   | Button highlights White                                                                 | Pass    |
+| Social Media Links         | user hovers                                    | highlight white                                                                        | Pass| 
+| Social Media Links         | user clicks                                    | open in new tab                                                                          | pass |
 
 ## Validator Testing
 
@@ -260,6 +261,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 ## Content 
 
 - Content was created by me. Answers to questions searched on Google.
+
 
 
 
