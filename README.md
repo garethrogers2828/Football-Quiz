@@ -1,10 +1,9 @@
 ﻿# Football-Quiz
 
 
-
 ## Description
 
-Football quiz is a Premier League football quiz app designed for anyone who enjoys quizzing, sport, football and testing their knowledge. 
+Football quiz is a Premier League football quiz app designed for anyone who enjoys quizzing, sport, football and testing their knowledge. Questions are about the English Premier League specifically. This Website was created for the sole purpose of completing the second Milestone Project for the Code Institute's Full Stack Developer course.
 
 - link to the live site here - https://garethrogers2828.github.io/Football-Quiz/
   
@@ -32,6 +31,7 @@ The business goals for this app are:
 
 - Generate more awareness
 - User engagement and Data Collection
+- Enhance visitor Knowledge
 
 ## User Stories 
 
@@ -43,7 +43,8 @@ The business goals for this app are:
 6. As a user, I want to be kept up to date of my score
 7. As a user, I want to know how far into the quiz I am, and how many questions are remaining
 8. As a user, I want to be able to see my final score and a leaderboard
-9. As a user, I want to be able to restart the quiz after I have finished 
+9. As a user, I want to be able to restart the quiz after I have finished
+10. As a user need the site to be responive on all devices as I often use mobile as well as laptop and desktop
 
 # Design
 
@@ -157,7 +158,7 @@ https://garethrogers2828.github.io/Football-Quiz/
 | As a user, I want to know how far into the quiz I am, and how many questions are remaining                            | Pass   |
 | As a user, I want to be able to see my final score and a leaderboard                                                  | Pass   |
 | As a user, I want to be able to restart the quiz after I have finished                                                | Pass   |
-|                                                                                                                       |        |                          
+| As a user need the site to be responsive on all devices as I often use mobile as well as laptop and desktop           |Pass   |                                                                                                            |        |                          
 
                                                                                   
 ## Manual testing 
@@ -259,6 +260,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 ## Content 
 
 - Content was created by me. Answers to questions searched on Google.
+
 
 
 
