@@ -62,7 +62,7 @@ The business goals for this app are:
 
 ## Fonts
 
-- I have used Arial 
+- I have used Arial. Simple clean and easy to read
 
 # Existing Features
 
@@ -84,7 +84,6 @@ The business goals for this app are:
 - User can initiate the start of the quiz via a the start quiz button, allows the user to start the quiz when they are ready.
 
 <img width="441" height="68" alt="start-quiz-button" src="https://github.com/user-attachments/assets/46a8b1cb-3f48-45cc-9d33-33b6337cb375" />
-
 
 ## Questions Section
 
@@ -116,7 +115,6 @@ The business goals for this app are:
 <img width="870" height="583" alt="results-page" src="https://github.com/user-attachments/assets/d2abf730-5430-42ce-a322-33bd7b578384" />
 
 
-
 ## Leaderboard
 
 - Users can click the leaderboard button and view where they placed. 
@@ -126,6 +124,8 @@ The business goals for this app are:
 ## Future Features 
 
 - New round of questions
+- Contact me section to submit contact info and register interest
+- Images
 
 ## Technologies used 
 
@@ -138,6 +138,11 @@ The business goals for this app are:
 https://garethrogers2828.github.io/Football-Quiz/
 
 # Testing
+
+## Responsiveness
+
+<img width="1880" height="710" alt="Responsive" src="https://github.com/user-attachments/assets/4a716c34-3147-486d-8731-6e5d65b766d3" />
+
 
 ## User Story testing
 
@@ -154,9 +159,7 @@ https://garethrogers2828.github.io/Football-Quiz/
 | As a user, I want to be able to restart the quiz after I have finished                                                | Pass   |
 |                                                                                                                       |        |                          
 
-
-
-                                                                                        
+                                                                                  
 ## Manual testing 
 
 - I tested the device personally for both Mobile and desktop. I had colleagues friends and family do the same.
@@ -204,8 +207,6 @@ https://garethrogers2828.github.io/Football-Quiz/
 - <img width="1894" height="282" alt="jshint" src="https://github.com/user-attachments/assets/504f0be5-7774-4f36-9313-ceea4840d872" />
 
 
-  
-
 ## Lighthouse Testing 
 
 - The website has been tested using DevTools lighthouse, producing an acceptable result.
@@ -214,13 +215,11 @@ https://garethrogers2828.github.io/Football-Quiz/
 <img width="1521" height="838" alt="lighthouse-mobile" src="https://github.com/user-attachments/assets/19aa76da-901c-4ca0-a4f8-e9e21719003a" />
 
 
-
 ## Bugs
 
 1. leaderboard is printing the player position twice. 1. 1. and 2. 2. etc. This was caused by using an ordered list in HTML and also logging postion in Javascript. I have now removed the javascript code so this now displays correctly and the postions only show once. 
 
  
-
 ## IDE
 
 - Used Visual Studio Code. 
@@ -262,7 +261,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 - Content was created by me. Answers to questions searched on Google.
 
 
-## Media 
+
 
 
 
