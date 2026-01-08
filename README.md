@@ -89,6 +89,7 @@ The business goals for this app are:
 ## Questions Section
 
 - After the user has clicked start quiz they can then view questions one at a time with 4 possible answers. Users can take their time and are given feedback when they are correct or wrong. The correct answer button is highlighted green and if the user answers in-correctly then this button will highlight in red. Great for improving the users knowledge as the correct answer will be highlighted green even if the user gets the question wrong.
+- User are unable to answer twice
 
 <img width="1913" height="893" alt="questions-page" src="https://github.com/user-attachments/assets/7dcaee11-9e51-4cc3-9b18-b50f0e8869b1" />
 <img width="470" height="326" alt="correct-answer-feedback" src="https://github.com/user-attachments/assets/f4fdb676-546b-4c7e-a3d0-326f676b0c19" />
@@ -111,7 +112,7 @@ The business goals for this app are:
 
  - Users can reset the quiz and restart without refreshing their browser. Great for the user to be able to very quickly play the quiz again with their renewed knowledge
  - This button is visable at the end of the quiz, it is also available from the leaderboard section
- - 
+   
 <img width="870" height="583" alt="results-page" src="https://github.com/user-attachments/assets/d2abf730-5430-42ce-a322-33bd7b578384" />
 
 
@@ -184,7 +185,7 @@ https://garethrogers2828.github.io/Football-Quiz/
 | View Leaderboard           | User Hovers                                   | Button highlights gold and text changes colour to black                                                                                                            | Pass    |
 | View Leaderboard           | User Clicks View Leaderboard Button           | User taken to leaderboard                                                                                                                                          | Pass    |
 |                            |                                               |                                                                                                                                                                    |         |
-| Leaderboard Screen         |                                               | User can see their score and where they came on the leaderboard                                                                                                    |         |
+| Leaderboard Screen         |                                               | User can see their score and where they came on the leaderboard                                                                                                    |  Pass       |
 | Play Again Button          | User Clicks Play Again Button                 | The user is directed back to the home page and can re enter their name to play the quiz again                                                                      | Pass    |
 | Play Again Button          | User Hovers                                   | Button highlights White                                                                                                                                            | Pass    |
 
@@ -257,6 +258,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 
 
 ## Media 
+
 
 
 
