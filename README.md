@@ -196,7 +196,12 @@ https://garethrogers2828.github.io/Football-Quiz/
 <img width="1826" height="930" alt="html-validation" src="https://github.com/user-attachments/assets/742eec72-d3bf-4e04-99be-e2783ece152a" />
 
 - CSS Validation
-- <img width="1836" height="470" alt="css-validation" src="https://github.com/user-attachments/assets/46e92c93-21f8-4dfd-94fb-bb34f657a021" />
+ <img width="1836" height="470" alt="css-validation" src="https://github.com/user-attachments/assets/46e92c93-21f8-4dfd-94fb-bb34f657a021" />
+
+- JSHint
+- No errors were returned when passing through JShint validator.
+- Warnings are currently present, however these are regarding ES6 Compatibility; I'm aware of these and I am satisfied these can be dismissed.
+- <img width="1894" height="282" alt="jshint" src="https://github.com/user-attachments/assets/504f0be5-7774-4f36-9313-ceea4840d872" />
 
 
   
@@ -258,6 +263,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 
 
 ## Media 
+
 
 
 
