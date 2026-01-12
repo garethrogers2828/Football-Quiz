@@ -36,7 +36,7 @@ The business goals for this app are:
 ## User Stories 
 
 1. As a user, I want to be able to enter my name before starting the quiz and I want to be able to start the quiz easily
-2. As a user, i want to be able to understand exactly what the site is for when arriving
+2. As a user, I want to be able to understand exactly what the site is for when arriving
 3. As a user, I want to to be able to answer questions with multiple choices  
 4. As a user, I want to know if my answers are correct after answering each question
 5. As a user, I want to be told the correct answer if I am wrong
@@ -44,7 +44,7 @@ The business goals for this app are:
 7. As a user, I want to know how far into the quiz I am, and how many questions are remaining
 8. As a user, I want to be able to see my final score and a leaderboard
 9. As a user, I want to be able to restart the quiz after I have finished
-10. As a user need the site to be responive on all devices as I often use mobile as well as laptop and desktop
+10. As a user, need the site to be responive on all devices as I often use mobile as well as laptop and desktop
 
 # Design
 
@@ -69,13 +69,13 @@ The business goals for this app are:
 
 ## Enter Name Screen
 
-- User can enter name at the start of the quiz. This is good to give user the a quick personal touch and would allow this information to be used in a leaderboard later on in the quiz.
+- User can enter name at the start of the quiz. This is good to give user the a quick personal touch and would allow this information to be used in a leaderboard later on in the quiz. The user cannot continue without entering a name.
 
 <img width="1910" height="892" alt="Quiz-Home-Page" src="https://github.com/user-attachments/assets/654e770e-ef8e-4a77-ae6a-6caba3e57ff4" />
 
 ## Sweet Alert if no name entered
 
-- User is required to enter name, if no name is entered an alert will pop up. I havve used sweetalert to give the user a more friendly feedback experience
+- User is required to enter name, if no name is entered an alert will pop up. I have used sweetalert to give the user a more friendly feedback experience
   
 <img width="1204" height="490" alt="sweetalert" src="https://github.com/user-attachments/assets/f1f10b19-bfdd-4402-9649-6d159f07f06f" />
 
@@ -127,6 +127,7 @@ The business goals for this app are:
 - New round of questions
 - Contact me section to submit contact info and register interest
 - Images
+- Randomize Questions
 
 ## Technologies used 
 
@@ -221,7 +222,8 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 ## Bugs
 
-1. leaderboard is printing the player position twice. 1. 1. and 2. 2. etc. This was caused by using an ordered list in HTML and also logging postion in Javascript. I have now removed the javascript code so this now displays correctly and the postions only show once. 
+1. leaderboard is printing the player position twice. 1. 1. and 2. 2. etc. This was caused by using an ordered list in HTML and also logging postion in Javascript. I have now removed the javascript code so this now displays correctly and the postions only show once.
+2. Hover highlight was sticking on mobile device. Previous answered buttons were still gold going into the next question. Fixed using media query.
 
  
 ## IDE
@@ -263,6 +265,7 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 ## Content 
 
 - Content was created by me. Answers to questions searched on Google.
+
 
 
 
