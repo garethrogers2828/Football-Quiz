@@ -1,10 +1,9 @@
 ﻿# Football-Quiz
 
 
-
 ## Description
 
-Football quiz is a Premier League football quiz app designed for anyone who enjoys quizzing, sport, football and testing their knowledge. 
+Football quiz is a Premier League football quiz app designed for anyone who enjoys quizzing, sport, football and testing their knowledge. Questions are about the English Premier League specifically. This Website was created for the sole purpose of completing the second Milestone Project for the Code Institute's Full Stack Developer course.
 
 - link to the live site here - https://garethrogers2828.github.io/Football-Quiz/
   
@@ -32,18 +31,20 @@ The business goals for this app are:
 
 - Generate more awareness
 - User engagement and Data Collection
+- Enhance visitor Knowledge
 
 ## User Stories 
 
 1. As a user, I want to be able to enter my name before starting the quiz and I want to be able to start the quiz easily
-2. As a user, i want to be able to understand exactly what the site is for when arriving
+2. As a user, I want to be able to understand exactly what the site is for when arriving
 3. As a user, I want to to be able to answer questions with multiple choices  
 4. As a user, I want to know if my answers are correct after answering each question
 5. As a user, I want to be told the correct answer if I am wrong
 6. As a user, I want to be kept up to date of my score
 7. As a user, I want to know how far into the quiz I am, and how many questions are remaining
 8. As a user, I want to be able to see my final score and a leaderboard
-9. As a user, I want to be able to restart the quiz after I have finished 
+9. As a user, I want to be able to restart the quiz after I have finished
+10. As a user, need the site to be responive on all devices as I often use mobile as well as laptop and desktop
 
 # Design
 
@@ -62,19 +63,19 @@ The business goals for this app are:
 
 ## Fonts
 
-- I have used Arial 
+- I have used Arial. Simple clean and easy to read
 
 # Existing Features
 
 ## Enter Name Screen
 
-- User can enter name at the start of the quiz. This is good to give user the a quick personal touch and would allow this information to be used in a leaderboard later on in the quiz.
+- User can enter name at the start of the quiz. This is good to give user the a quick personal touch and would allow this information to be used in a leaderboard later on in the quiz. The user cannot continue without entering a name.
 
 <img width="1910" height="892" alt="Quiz-Home-Page" src="https://github.com/user-attachments/assets/654e770e-ef8e-4a77-ae6a-6caba3e57ff4" />
 
 ## Sweet Alert if no name entered
 
-- User is required to enter name, if no name is entered an alert will pop up. I havve used sweetalert to give the user a more friendly feedback experience
+- User is required to enter name, if no name is entered an alert will pop up. I have used sweetalert to give the user a more friendly feedback experience
   
 <img width="1204" height="490" alt="sweetalert" src="https://github.com/user-attachments/assets/f1f10b19-bfdd-4402-9649-6d159f07f06f" />
 
@@ -85,10 +86,10 @@ The business goals for this app are:
 
 <img width="441" height="68" alt="start-quiz-button" src="https://github.com/user-attachments/assets/46a8b1cb-3f48-45cc-9d33-33b6337cb375" />
 
-
 ## Questions Section
 
 - After the user has clicked start quiz they can then view questions one at a time with 4 possible answers. Users can take their time and are given feedback when they are correct or wrong. The correct answer button is highlighted green and if the user answers in-correctly then this button will highlight in red. Great for improving the users knowledge as the correct answer will be highlighted green even if the user gets the question wrong.
+- User are unable to answer twice
 
 <img width="1913" height="893" alt="questions-page" src="https://github.com/user-attachments/assets/7dcaee11-9e51-4cc3-9b18-b50f0e8869b1" />
 <img width="470" height="326" alt="correct-answer-feedback" src="https://github.com/user-attachments/assets/f4fdb676-546b-4c7e-a3d0-326f676b0c19" />
@@ -111,19 +112,22 @@ The business goals for this app are:
 
  - Users can reset the quiz and restart without refreshing their browser. Great for the user to be able to very quickly play the quiz again with their renewed knowledge
  - This button is visable at the end of the quiz, it is also available from the leaderboard section
- - 
+   
 <img width="870" height="583" alt="results-page" src="https://github.com/user-attachments/assets/d2abf730-5430-42ce-a322-33bd7b578384" />
-
 
 
 ## Leaderboard
 
 - Users can click the leaderboard button and view where they placed. 
- screen shot to be put here - 
+<img width="719" height="415" alt="leaderboard" src="https://github.com/user-attachments/assets/ad3b0de4-4111-4b37-9e3c-743427a730a3" />
+
 
 ## Future Features 
 
 - New round of questions
+- Contact me section to submit contact info and register interest
+- Images
+- Randomize Questions
 
 ## Technologies used 
 
@@ -137,12 +141,19 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 # Testing
 
+## Responsiveness
+
+- https://ui.dev/amiresponsive?url=https://garethrogers2828.github.io/Football-Quiz/
+
+<img width="1880" height="710" alt="Responsive" src="https://github.com/user-attachments/assets/4a716c34-3147-486d-8731-6e5d65b766d3" />
+
+
 ## User Story testing
 
 | User Story                                                                                                            | Result |
 | --------------------------------------------------------------------------------------------------------------------- | ------ |
 | As a user, I want to be able to enter my name before starting the quiz and I want to be able to start the quiz easily | Pass   |
-| As a user, i want to be able to understand exactly what the site is for when arriving                                 | Pass   |
+| As a user, I want to be able to understand exactly what the site is for when arriving                                 | Pass   |
 | As a user, I want to to be able to answer questions with multiple choices                                             | Pass   |
 | As a user, I want to know if my answers are correct after answering each question                                     | Pass   |
 | As a user, I want to be told the correct answer if I am wrong                                                         | Pass   |
@@ -150,11 +161,9 @@ https://garethrogers2828.github.io/Football-Quiz/
 | As a user, I want to know how far into the quiz I am, and how many questions are remaining                            | Pass   |
 | As a user, I want to be able to see my final score and a leaderboard                                                  | Pass   |
 | As a user, I want to be able to restart the quiz after I have finished                                                | Pass   |
-|                                                                                                                       |        |                          
+| As a user, I need the site to be responsive on all devices as I often use mobile as well as laptop and desktop           |Pass   |                                                                                                            |        |                          
 
-
-
-                                                                                        
+                                                                                
 ## Manual testing 
 
 - I tested the device personally for both Mobile and desktop. I had colleagues friends and family do the same.
@@ -162,7 +171,7 @@ https://garethrogers2828.github.io/Football-Quiz/
 
 | Feature                    | Steps                                         | Expected Outcome                                                                                                                                                   | Outcome |
 | -------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
-| Home screen                |                                               |                                                                                                                                                                    |         |
+| Home screen/Enter Name Screen                 |                                               |                                                                                                                                                                    |         |
 | Introduction               |                                               | Introduction to the Quiz explaining what it is and how long                                                                                                        | Pass    |
 | Start Quiz Button          | User clicks Start Quiz                        | Quiz starts providing user has entered a name                                                                                                                      | Pass    |
 | Enter Name box             | User doesn't enter name and clicks Start Quiz | Sweet Alert pop up asking user to enter name                                                                                                                       | Pass    |
@@ -183,10 +192,11 @@ https://garethrogers2828.github.io/Football-Quiz/
 | View Leaderboard           | User Hovers                                   | Button highlights gold and text changes colour to black                                                                                                            | Pass    |
 | View Leaderboard           | User Clicks View Leaderboard Button           | User taken to leaderboard                                                                                                                                          | Pass    |
 |                            |                                               |                                                                                                                                                                    |         |
-| Leaderboard Screen         |                                               | User can see their score and where they came on the leaderboard                                                                                                    |         |
+| Leaderboard Screen         |                                               | User can see their score and where they came on the leaderboard                                                                                                    |  Pass       |
 | Play Again Button          | User Clicks Play Again Button                 | The user is directed back to the home page and can re enter their name to play the quiz again                                                                      | Pass    |
-| Play Again Button          | User Hovers                                   | Button highlights White                                                                                                                                            | Pass    |
-
+| Play Again Button          | User Hovers                                   | Button highlights White                                                                 | Pass    |
+| Social Media Links         | user hovers                                    | highlight white                                                                        | Pass| 
+| Social Media Links         | user clicks                                    | open in new tab                                                                          | pass |
 
 ## Validator Testing
 
@@ -194,10 +204,13 @@ https://garethrogers2828.github.io/Football-Quiz/
 <img width="1826" height="930" alt="html-validation" src="https://github.com/user-attachments/assets/742eec72-d3bf-4e04-99be-e2783ece152a" />
 
 - CSS Validation
-- <img width="1836" height="470" alt="css-validation" src="https://github.com/user-attachments/assets/46e92c93-21f8-4dfd-94fb-bb34f657a021" />
+ <img width="1836" height="470" alt="css-validation" src="https://github.com/user-attachments/assets/46e92c93-21f8-4dfd-94fb-bb34f657a021" />
 
+- JSHint
+- No errors were returned when passing through JShint validator.
+- Warnings are currently present, however these are regarding ES6 Compatibility; I'm aware of these and I am satisfied these can be dismissed.
+- <img width="1894" height="282" alt="jshint" src="https://github.com/user-attachments/assets/504f0be5-7774-4f36-9313-ceea4840d872" />
 
-  
 
 ## Lighthouse Testing 
 
@@ -207,13 +220,12 @@ https://garethrogers2828.github.io/Football-Quiz/
 <img width="1521" height="838" alt="lighthouse-mobile" src="https://github.com/user-attachments/assets/19aa76da-901c-4ca0-a4f8-e9e21719003a" />
 
 
-
 ## Bugs
 
-1. leaderboard is printing thre position twice. 1. 1. and 2. 2. etc
+1. leaderboard is printing the player position twice. 1. 1. and 2. 2. etc. This was caused by using an ordered list in HTML and also logging postion in Javascript. I have now removed the javascript code so this now displays correctly and the postions only show once.
+2. Hover highlight was sticking on mobile device. Previous answered buttons were still gold going into the next question. Fixed using media query.
 
  
-
 ## IDE
 
 - Used Visual Studio Code. 
@@ -255,7 +267,14 @@ I also used Chatgpt to help with troubleshooting and problem solving issues. Thi
 - Content was created by me. Answers to questions searched on Google.
 
 
-## Media 
+
+
+
+
+
+
+
+
 
 
 
